@@ -53,11 +53,12 @@ class Student:
 
 
 student1 = Student(name="Onufrij")
+student2 = Student(name="Lilya")
 
 for day in range(365):
-    if student1.alive == False:
-        break
-    student1.live(day)
-
+    if student1.alive == True:
+        student1.live(day)
+    if student2.alive == True:
+        student2.live(day)
 
 
